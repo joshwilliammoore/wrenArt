@@ -1,0 +1,82 @@
+.navbar {
+    position: relative;
+    float: none;
+    background-color: #f4f4df ;
+}
+
+.nav {
+    margin-top: 15px;
+    height: 40px;
+    width: 1000px;
+  }
+
+#name {
+    font-size: 28px;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #2a2b2b;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    /*text-decoration: underline #ffffff;*/
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#social {
+    position: relative;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#social a:hover {
+    font-size: 16px;
+}
+
+
+@media (min-width: 1241px) {
+    span.text {display:none}
+    #links a {display:inline-block}
+    #name {display: flex;justify-content: center;}
+    #social {display: flex;justify-content: left;}
+}
+
+@media (max-width: 1240px) {
+    span.text {display:inline-block}
+    #links a {display:none}
+}
+
+
+.navbar-toggler {
+    right: 0;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 49.5%;
+    top: 10px;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 26px;
+    font-weight: bold;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+.mini-logo img {
+    width: 50px;
+    height: auto;
+}

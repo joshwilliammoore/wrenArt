@@ -1,0 +1,24 @@
+#con {
+    position: relative;
+}
+
+#button1 {
+    position: absolute;
+    top: 65%;
+    left: 10px; 
+        
+    padding: 10px;
+    border: none;
+    background-color: #f4f4df;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+#button1:hover {
+    pointer-events: fill;
+}
+
+.buttons a {
+    color: #2a2b2b;
+    text-decoration: none;
+}
